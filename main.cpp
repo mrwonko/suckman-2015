@@ -43,7 +43,7 @@ sf::Vector2f constrain( sf::Vector2f vec, const sf::FloatRect& bounds )
 int main( const int argc, const char* argv[] )
 {
 
-	sf::RenderWindow window{ sf::VideoMode{ 800, 600 }, "0hgame 2015 by mrwonko", sf::Style::Close | sf::Style::Titlebar, sf::ContextSettings{ 0, 0, 0, 2, 0, 0 } };
+	sf::RenderWindow window{ sf::VideoMode{ 800, 600 }, "Suckman 2015 by mrwonko", sf::Style::Close | sf::Style::Titlebar, sf::ContextSettings{ 0, 0, 0, 2, 0, 0 } };
 	sf::Clock clock;
 
 	std::random_device random_device;
